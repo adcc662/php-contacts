@@ -64,7 +64,7 @@
 <main>
     <div class="container pt-4 p-3">
         <div class="row">
-            <?php foreach ($contacts as $contact) { ?>
+            <?php foreach ($contacts as $contact):  ?>
                 <div class="col-md-4 mb-3">
                 <div class="card text-center">
                     <div class="card-body">
@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-           <?php }?>
+           <?php endforeach ?>
 
 
 <!--            <div class="col-md-4 mb-3">-->
